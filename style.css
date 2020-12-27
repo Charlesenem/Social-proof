@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500&display=swap');
+
+body {
+    font-family: spartan; 
+    font-Weight: 400, 500, 700;
+    Font-size: 15px;
+}
+
+/* row-a */
+.row-a {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 10rem;
+    margin-top: -15rem;
+}
+
+#pat1 {
+    margin-left: 45px;
+}
+
+#pat1a {
+    visibility: hidden;
+}
+
+.col-a-1 {
+    /* position: relative;
+    right: ; */
+    margin-left: 12rem;
+}
+
+.col-a-1 h1 {
+    line-height: 1;
+    margin-top: -1rem;
+    color: hsl(300, 43%, 22%);
+    font-size: 3.3rem;
+}
+
+.col-a-1 p {
+    font-size: 16px;
+    margin-top: -1.5rem;
+    line-height: 1.5;
+    color: hsl(300, 16%, 35%);
+    font-weight: 600;
+}
+
+.col-a-2 {
+    position: relative;
+    right: 1rem;
+    top: -0.5rem;
+}
+
+.row-a-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
+    margin-bottom: 1.5rem;
+    width: 65%;
+    height: 15%;
+    border-radius: 5px;
+    background: hsl(300, 24%, 96%);
+}
+
+.row-a-1 h5 {
+    /* position: relative;
+    left */
+    margin-left: -1.5rem;
+    margin-top: 0.205rem;
+    color: hsl(300, 43%, 22%);
+}
+
+.row-a-1 img {
+    position: relative;
+    margin-top: 0.2rem;
+    left: 1.5rem;
+    margin-right: 0.4rem;
+}
+
+.row-a-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+    padding-top: 20px;
+    width: 65%;
+    height: 15%;
+    border-radius: 5px;
+    background: hsl(300, 24%, 96%);
+}
+
+.row-a-2 h5 {
+    /* position: relative;
+    left */
+    margin-left: -1.5rem;
+    margin-top: 0.205rem;
+    color: hsl(300, 43%, 22%);
+}
+
+.row-a-2 img {
+    position: relative;
+    margin-top: 0.2rem;
+    left: 1.5rem;
+    margin-right: 0.4rem;
+}
+
+.row-a-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    padding-top: 20px;
+    margin-bottom: 1.5rem;
+    width: 65%;
+    height: 15%;
+    border-radius: 5px;
+    background: hsl(300, 24%, 96%);
+}
+
+.row-a-3 h5 {
+    /* position: relative;
+    left */
+    margin-left: -1.5rem;
+    margin-top: 0.205rem;
+    color: hsl(300, 43%, 22%);
+}
+
+.row-a-3 img {
+    position: relative;
+    margin-top: 0.2rem;
+    left: 1.5rem;
+    margin-right: 0.4rem;
+}
+
+
+
+
+/* row-b */
+.row-b {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.row-b1 {
+    margin-top: -1rem;
+}
+
+.col-b1 img{
+    border-radius: 50%;
+    margin-left: 2rem;
+    margin-top: 3.7rem;
+    height: 30%;
+}
+
+.col-b2 {
+    margin-left: -5rem;
+    margin-top: 2rem;
+    font-size: 13px;
+}
+
+#color {
+    margin-top: -0.5rem;
+    color: hsl(333, 80%, 67%);
+}
+
+#white {
+    color: hsl(300, 24%, 96%);
+    margin-top: 2rem;
+}
+
+.col-b-1 {
+    background: hsl(300, 43%, 22%);
+    width: 70%;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 12rem;
+    margin-top: 3.5rem;
+}
+
+#test {
+    color: hsl(300, 24%, 96%);
+    margin: -0.5rem 2.2rem 1rem 2.2rem;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.row-b1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.col-b-2 {
+    background: hsl(300, 43%, 22%);
+    width: 70%;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 5rem;
+    margin-top: 4.7rem;
+}
+
+.col-b-3 {
+    background: hsl(300, 43%, 22%);
+    width: 70%;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: -2rem;
+    margin-top: 6.2rem;
+}
+
+#pat2 {
+    margin-top: -39rem;
+    margin-left: 28rem;
+}
+
+
+/* media for screen size 765px below */
+@media (max-width: 765px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #pat1a {
+        visibility: hidden;
+        margin-top: -75rem;
+    }
+
+    #pat1 {
+        visibility: visible;
+        margin-top: -1rem;
+    }
+
+    .row-a {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: -15rem;
+    } 
+
+    .col-a-1 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .col-a-1 h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+    .col-a-1 p {
+        text-align: center;
+        font-size: 19px;
+        margin-top: 1.5rem;
+    }
+
+    .row-a-1 {
+        display: grid;
+        grid-template-columns: 1fr ;
+        margin-bottom: 3.5rem;
+        margin-top: -6.5rem;
+        margin-left: 8%;
+        text-align: center;
+        width: 90%;
+        height: 25%;
+    }
+    
+    .row-a-1 h5 {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        margin-left: -1rem;
+    }
+    
+    .row-a-1 img {
+        margin-top: 0.5rem;
+        left: -0.3rem;
+        margin-right: 0.3rem;
+    }
+
+    .row-a-2 {
+        display: grid;
+        grid-template-columns: 1fr ;
+        margin-bottom: 1rem;
+        margin-top: -2.5rem;
+        margin-left: 8%;
+        text-align: center;
+        width: 90%;
+        height: 25%;
+    }
+    
+    .row-a-2 h5 {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        margin-left: -1rem;
+    }
+    
+    .row-a-2 img {
+        margin-top: 0.5rem;
+        left: -0.3rem;
+        margin-right: 0.3rem;
+    }
+
+    .row-a-3 {
+        display: grid;
+        grid-template-columns: 1fr ;
+        padding-top: 20px;
+        margin-top: 1rem;
+        margin-left: 8%;
+        text-align: center;
+        width: 90%;
+        height: 25%;
+    }
+    
+    .row-a-3 h5 {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        margin-left: -1rem;
+    }
+    
+    .row-a-3 img {
+        margin-top: 0.5rem;
+        left: -0.3rem;
+        margin-right: 0.3rem;
+    }
+
+    .row-b {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .col-b-1 {
+        width: 90%;
+        margin-left: 6%;
+        margin-top: -2.5rem;
+    }
+
+    .col-b-2 {
+        width: 90%;
+        margin-left: 6%;
+        margin-top: 1.5rem;
+        margin-bottom: -1.5rem;
+    }
+
+    .col-b-3 {
+        width: 90%;
+        margin-left: 6%;
+        margin-top: 3rem;
+    }
+
+    .col-b2 {
+        margin-left: -7rem;
+    }
+
+    
+}
